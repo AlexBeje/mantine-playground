@@ -1,3 +1,3 @@
-# vitejs-vite-j24pn9
+# Hey!
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-j24pn9)
+You can load this project by running the command `vite`. Have fun!
