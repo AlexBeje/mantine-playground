@@ -1,10 +1,10 @@
-import { Button } from '@mantine/core';
+import MyButton from '../Components/MyButton';
 
 function Home() {
   return (
-    <div className="App">
-      <Button radius="lg">Hello world!</Button>
-    </div>
+    <>
+      <MyButton value="Button" />
+    </>
   );
 }
 
