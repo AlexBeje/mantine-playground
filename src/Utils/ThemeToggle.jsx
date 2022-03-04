@@ -1,6 +1,5 @@
 // Mantine
 import { ActionIcon, useMantineColorScheme } from '@mantine/core';
-
 // React icons
 import { SunIcon, MoonIcon } from '@radix-ui/react-icons';
 

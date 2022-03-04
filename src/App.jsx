@@ -1,6 +1,5 @@
 // Pages
 import Home from '/src/Pages/Home';
-
 // Utils
 import Theme from '/src/Utils/Theme';
 

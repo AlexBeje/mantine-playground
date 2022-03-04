@@ -1,6 +1,5 @@
 // React
 import { useState } from 'react';
-
 // Mantine
 import { MantineProvider, ColorSchemeProvider } from '@mantine/core';
 

@@ -1,7 +1,6 @@
 // React
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 // App component
 import App from '/src/App';
 

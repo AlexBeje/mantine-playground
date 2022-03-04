@@ -1,22 +1,23 @@
 // My components
 import MyButton from '/src/Components/MyButton';
-
 // Utils
 import ThemeToggle from '/src/Utils/ThemeToggle';
 
-function Home() {
-  const spaceBetween = {
-    display: 'flex',
-    justifyContent: 'space-between',
-  };
-
+export default function Home() {
   return (
-    <div style={spaceBetween}>
-      <MyButton>Hello</MyButton>
-      World!
-      <ThemeToggle />
-    </div>
+    <>
+      <div style={spaceBetween}>
+        <MyButton>Hello</MyButton>
+        <span>World!</span>
+        <ThemeToggle />
+      </div>
+    </>
   );
 }
 
-export default Home;
+// Styles
+const spaceBetween = {
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+};
