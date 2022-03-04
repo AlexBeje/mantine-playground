@@ -4,10 +4,10 @@ import { useState } from 'react';
 import { MantineProvider, ColorSchemeProvider } from '@mantine/core';
 
 function Theme({ children }) {
-  const [colorScheme, setColorScheme] = useState('light');
+  const [colorScheme, setColorScheme] = useState('dark');
   const toggleColorScheme = (value) =>
     setColorScheme(value || (colorScheme === 'dark' ? 'light' : 'dark'));
-
+    
   return (
     <>
       <ColorSchemeProvider
