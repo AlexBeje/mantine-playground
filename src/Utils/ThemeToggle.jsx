@@ -1,7 +1,7 @@
 // Mantine
 import { ActionIcon, useMantineColorScheme } from '@mantine/core';
 
-// React icons (@radix-ui/react-icons)
+// React icons
 import { SunIcon, MoonIcon } from '@radix-ui/react-icons';
 
 function ThemeToggle() {
